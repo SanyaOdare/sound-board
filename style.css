@@ -5,5 +5,35 @@
 }
 
 body {
+  background-image: linear-gradient(to right, #030943, #310042);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   font-family: 'Nunito Sans', sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.btn {
+  background-color: #48d2f7;
+  border-radius: 5px;
+  border: none;
+  color: #310042;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-family: inherit;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+}
+
+.btn:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.btn:focus {
+  outline: none;
 }
